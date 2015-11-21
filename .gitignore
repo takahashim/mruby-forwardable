@@ -1,0 +1,15 @@
+# /
+*.bak
+*.d
+*.o
+*.orig
+*.pdb
+*.rej
+*.sav
+*.swp
+*.tmp
+*~
+.DS_Store
+.svn
+/.git
+.yardoc
