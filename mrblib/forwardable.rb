@@ -52,7 +52,7 @@ module Forwardable
         end
       end
     else
-      raise "Forwaradable not supported object-level delegation"
+      raise "Forwardable not supported object-level delegation"
     end
 
   end

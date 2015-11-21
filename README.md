@@ -1,6 +1,6 @@
-# mruby-forwaradable
+# mruby-forwardable
 
-Forwaradable module for mruby (ported from CRuby).
+Forwardable module for mruby (ported from CRuby).
 
 ## Install
 add conf.gem to `build_config.rb`:
