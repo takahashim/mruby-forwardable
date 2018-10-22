@@ -5,6 +5,8 @@ MRuby::Gem::Specification.new('mruby-forwardable') do |spec|
   spec.version = '0.1.0'
 
   spec.add_dependency 'mruby-array-ext', core: 'mruby-array-ext'
-  spec.add_dependency 'mruby-metaprog', core: 'mruby-metaprog'
+  if File.exist? "#{MRUBY_ROOT}/mrbgems/mruby-metaprog"
+    spec.add_dependency 'mruby-metaprog', core: 'mruby-metaprog'
+  end
   spec.add_dependency 'mruby-onig-regexp', mgem: 'mruby-onig-regexp'
 end
