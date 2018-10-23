@@ -16,6 +16,11 @@ add conf.gem to `build_config.rb`:
 
 * This libarary does not support object-level delegation and SingleForwardable yet.
 
+## History
+
+* v0.2.0: support `mruby-metaprog` (by @udzura)
+* v0.1.0: initial version
+
 ## License
 
 BSDL from CRuby's
